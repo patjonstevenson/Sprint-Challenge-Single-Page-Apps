@@ -1,4 +1,5 @@
 # Sprint Challenge: Single Page Applications
+## PATRICK STEVENSON
 
 ## Rick & Morty Edition
 
@@ -27,7 +28,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client-side routing allows for a more fluid user experience. Instead of waiting on calls to the server to generate page reloads, the client simply requests individual pieces of data as needed. However, this comes at the cost of a slower initial page load.
 
 ## Project Set Up
 
