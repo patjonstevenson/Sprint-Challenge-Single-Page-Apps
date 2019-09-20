@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { CardDeck } from "reactstrap";
 import axios from "axios";
 import CharacterCard from "./CharacterCard";
 import SearchForm from "./SearchForm";
@@ -19,11 +21,12 @@ export default function CharacterList() {
   }, []);
 
   return (
-    <div className="characters">
+    <div>
+      <Link to="/">Home</Link>
       <SearchForm list={characters} setList={setFilteredList} />
-      <section className="character-list">
+      <CardDeck >
         {filteredList.map(character => <CharacterCard key={character.id} character={character} />)}
-      </section>
+      </CardDeck>
     </div>
   );
 }
