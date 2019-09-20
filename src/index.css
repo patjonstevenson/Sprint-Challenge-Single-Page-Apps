@@ -37,3 +37,23 @@ main {
 header h1 {
   text-align: center;
 }
+
+.welcome-split {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.welcome-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.welcome-page a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  font-size: 3rem;
+  
+  
+}

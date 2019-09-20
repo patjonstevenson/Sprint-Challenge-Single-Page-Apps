@@ -1,5 +1,8 @@
 import React from "react";
 
-export default function LocationCard({ name, type, dimension, residents }) {
-  return <span>todo: location</span>;
+export default function LocationCard(location, { name, type, dimension, residents }) {
+  return <div className="character-card">
+    <h3>{location.name}</h3>
+    <p>Type: {location.type}</p>
+  </div>
 }
